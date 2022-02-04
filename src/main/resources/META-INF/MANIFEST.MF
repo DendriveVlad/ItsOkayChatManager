@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: ChatManager
+Class-Path: E:\progarm\IdeaProjects\ItsOkayChatManager\src\main\java\its
+ okay\chatmanager
+

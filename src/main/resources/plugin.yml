@@ -1,0 +1,72 @@
+name: ChatMenager
+version: ${project.version}
+main: itsokay.chatmanager.ChatManager
+api-version: 1.16
+database: true
+prefix: "CM"
+commands:
+  help:
+    description: Help
+    usage: /<command>
+  me:
+    description: Me
+    usage: /<command> [message]
+  m:
+    description: Private Message
+    usage: /<command> [player] [message]
+  clan:
+    description: Clan commands
+    usage: /<command> <help/create/rename/tag/color/invite/kick/promote/delete/leave/accept> [whatever]
+  c:
+    description: Clan chat
+    usage: /<command> [message]
+  с:
+    description: Clan chat
+    usage: /<command> [message]
+  r:
+    description: Reply Private Message
+    usage: /<command> [message]
+  к:
+    description: Reply Private Message
+    usage: /<command> [message]
+  a:
+    description: Answer to message
+  notify:
+    description: On/Off sound notification
+    usage: /<command> <on/off>
+  ignore:
+    description: ignore Chat
+    usage: /<command> <@all/@global/@private/player nick>
+  unignore:
+    description: unignore Chat
+    usage: /<command> <@all/@global/@private/player nick>
+  watch:
+    description: watch player
+    usage: /<command> [player]
+  ban:
+    description: ban player
+    usage: /<command> [player] [reason]
+  unban:
+    description: unban player
+    usage: /<command> [player]
+  donate:
+    description: get donation info
+    usage: /<command>
+  pos1:
+    description: get first block position
+    usage: /<command>
+  pos2:
+    description: get second block posotiob
+    usage: /<command>
+  nickcolor:
+    description: set nick color
+    usage: /<command>
+  colornumbers:
+    description: get numbers of colors
+    usage: /<command>
+  fakeleave:
+    description: fake leave from the game
+    usage: /<command>
+  fakedeath:
+    description: fake daeth
+    usage: /<command>
